@@ -1,27 +1,38 @@
-# DenticsApp
+# Prueba Técnica FrontEnd - Diseño de Clinica Dental
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+## Diseño
+- Figma: [Enlace al Diseño en Figma](https://www.figma.com/file/MTWUVMJIGoBjUZKJnfTU33/Landing-Page-for-Dental-Clinic-(Community)?type=design&node-id=0-1&mode=design&t=8W270zxMZK7R3MDJ-0)
 
-## Development server
+## API Documentation
+- Postman Doc: [Enlace a la Documentación en Postman](https://documenter.getpostman.com/view/32980619/2sA2r6WPSy)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologías a Utilizar
+- Angular 10 o superior (Recomendable 15)
+- TailwindCSS / Bootstrap / CSS / SASS
+- Angular Material (Opcional)
+- HTML
 
-## Code scaffolding
+## Puntos a Revisar
+- Dominio de HTML
+- Dominio de Estilos (Usando frameworks o nativo)
+- Dominio de Angular o el framework que se haya utilizado.
+- Dominio de Componentes.
+- Consumo de servicios API REST.
+- Buenas prácticas en código.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instrucciones
+1. Maquetar la versión de escritorio acorde al diseño compartido.
+2. La versión móvil deberá ser una propuesta realizada por usted.
+3. Mostrar la sección "MEET OUR DOCTORS" requerirá consumir la API llamada "Lista Doctores".
+4. Enviar la información registrada en el formulario "MAKE AN APPOINMENT" a la API llamada "Crear Cita".
+5. Enviar la información ingresada en la sección "Newsletter" a la API llamada "Registrar Newsletter".
+6. Entregar un zip con el código realizado o proporcionar el enlace al repositorio en GitLab o GitHub.
 
-## Build
+## Tiempo de Entrega
+- Tienes 48 horas para compartir tu avance a partir de que recibas este correo.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Nota Importante
+- Para el consumo de servicios, es necesario enviar como header una KEY, la cual obtendrán al consumir el servicio "Obtener Token".
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Importante
+- Si no logras terminar el ejercicio, es importante que compartas el avance obtenido. No se tomará en cuenta si no se completa el ejercicio, pero se evaluará la forma en que se desarrolló.
