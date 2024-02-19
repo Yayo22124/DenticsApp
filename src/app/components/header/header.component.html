@@ -1,0 +1,10 @@
+<mat-toolbar class="flex items-center justify-between bg-white border-b-2 max-w-11/12 w-11/12 mx-auto">
+    <img src="assets/logo.svg" alt="Dentics logo">
+    <nav class="has-[a]:cursor-pointer has-[a]:font-medium flex items-center gap-2">
+        <a mat-flat-button href="#home" [ngClass]="{'text-blue-600': homeActive === true}" (click)="onNavActive('home')">Home</a>
+        <a mat-flat-button href="#services" [ngClass]="{'text-blue-600': servicesActive === true}" (click)="onNavActive('services')">Services</a>
+        <a mat-flat-button href="#about-us" [ngClass]="{'text-blue-600': aboutActive === true}" (click)="onNavActive('about')">About Us</a>
+        <a mat-flat-button href="#register" [ngClass]="{'text-blue-600': registerActive === true}" (click)="onNavActive('register')">Register</a>
+        <a mat-flat-button color="primary" href="#appoinment" [ngClass]="{'bg-blue-600/70 scale-105': appoinmentActive === true}" (click)="onNavActive('appoinment')">Appoinment</a>
+    </nav>
+</mat-toolbar>
