@@ -1,7 +1,7 @@
 @use '@angular/material' as mat;
 
 // Define la paleta principal en azul (#516EFF)
-$primary-blue: mat.define-palette(mat.$blue-palette, 700);
+$primary-blue: mat.define-palette(mat.$blue-palette, 600);
 
 // Define la paleta secundaria en azul oscuro (#216583)
 $secondary-dark-blue: mat.define-palette(mat.$cyan-palette, 900);
