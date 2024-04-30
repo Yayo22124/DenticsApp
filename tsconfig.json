@@ -21,7 +21,13 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@components/*": ["./src/app/components/*"],
+      "@interfaces/*": ["./src/app/core/interfaces/*"],
+      "@constants/*": ["./src/app/core/constants/*"],
+      "@services/*": ["./src/app/core/services/*"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
