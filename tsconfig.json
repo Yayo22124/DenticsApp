@@ -24,6 +24,7 @@
     ],
     "paths": {
       "@components/*": ["./src/app/components/*"],
+      "@pages/*": ["./src/app/pages/*"],
       "@interfaces/*": ["./src/app/core/interfaces/*"],
       "@constants/*": ["./src/app/core/constants/*"],
       "@services/*": ["./src/app/core/services/*"]
